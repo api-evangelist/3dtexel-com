@@ -66,7 +66,7 @@
 
 3DTexel provides AI-powered generation of PBR textures, decals, HDRIs, terrain, animations, and 3D models, offering over 1,653 free CC0 assets for game developers using Unreal, Unity, Blender, and other platforms. The service enables creators to quickly produce high-quality, game-ready assets, streamlining development pipelines and reducing the need for manual asset creation.
 
-**Areas:** Company · AI · 3D Assets · Textures · Game Development
+**Areas:** Company · Artificial Intelligence · 3D Assets · Textures · Game Development
 
 ## 3DTexel on APIs.io
 
@@ -81,6 +81,12 @@ Everything profiled for 3DTexel is published on APIs.io rather than in this repo
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [3dtexel-com-mcp.yml](https://apis.io/servers/3dtexel-com/3dtexel-com-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -109,13 +115,13 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [3Dtexel Com Domain Security](https://apis.io/security/3dtexel-com/3dtexel-com-domain-security/)
+- [3DTexel Domain Security](https://apis.io/security/3dtexel-com/3dtexel-com-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [3Dtexel Com Plans Pricing](https://apis.io/plans/3dtexel-com/3dtexel-com-plans-pricing/)
+- [3DTexel Plans Pricing](https://apis.io/plans/3dtexel-com/3dtexel-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -130,25 +136,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 45.9** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 31.9** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 51.3 |
-| Contract governance | 79.1 |
+| Discoverability | 64.3 |
+| Contract quality | 24.1 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 14.3 |
-| Access clarity | 73.2 |
+| Access clarity | 72.3 |
 
-**Agent readiness 19.2** — agent-aware
+**Agent readiness 19.7** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
@@ -156,8 +162,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
-| Consent Identity | — |
+| Well Known Catalog | yes |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -165,9 +171,13 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | mostly |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3dtexel-com/](https://apis.io/providers/3dtexel-com/).
 
